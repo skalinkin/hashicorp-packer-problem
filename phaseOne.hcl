@@ -12,7 +12,7 @@ build {
   post-processors {
     post-processor "shell-local" {
     inline = [
-        "vagrant box add output-phase1/package.box --force --name msi-windows-10-base --provider virtualbox"
+        "vagrant box add output-phase1/package.box --force --name local-windows-10-base --provider virtualbox"
       ]
     }
   }
